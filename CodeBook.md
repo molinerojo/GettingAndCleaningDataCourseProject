@@ -169,3 +169,78 @@ Define the field to Groupping and calculate the mean
 Save the dataset to a text file tab delimited without rownames 
 
     write.table(dtAllFilteredSummarized, file.path(path,"TidyDataSet.txt"), sep="\t", row.names = F)
+
+**Tidi Data Set Description**
+
+Variable  | Type | Values | Description
+------------- | ------------- | -------------
+subject   | integer | from 1 to 30 | identifier of the subject corresponding to the measures
+activityName  | character | LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS | Activity performed when the measure was taken
+tBodyAcc-mean-X | numeric |  - | Average of the measures for the variable 'tBodyAcc-mean-X' for the subject during the activiy
+tBodyAcc-mean-Y | numeric |  - | Average of the measures for the variable 'tBodyAcc-mean-Y' for the subject during the activiy
+tBodyAcc-mean-Z | numeric |  - | Average of the measures for the variable 'tBodyAcc-mean-Z' for the subject during the activiy
+tBodyAcc-std-X | numeric |  - | Average of the measures for the variable 'tBodyAcc-std-X' for the subject during the activiy
+tBodyAcc-std-Y | numeric |  - | Average of the measures for the variable 'tBodyAcc-std-Y' for the subject during the activiy
+tBodyAcc-std-Z | numeric |  - | Average of the measures for the variable 'tBodyAcc-std-Z' for the subject during the activiy
+tGravityAcc-mean-X | numeric |  - | Average of the measures for the variable 'tGravityAcc-mean-X' for the subject during the activiy
+tGravityAcc-mean-Y | numeric |  - | Average of the measures for the variable 'tGravityAcc-mean-Y' for the subject during the activiy
+tGravityAcc-mean-Z | numeric |  - | Average of the measures for the variable 'tGravityAcc-mean-Z' for the subject during the activiy
+tGravityAcc-std-X | numeric |  - | Average of the measures for the variable 'tGravityAcc-std-X' for the subject during the activiy
+tGravityAcc-std-Y | numeric |  - | Average of the measures for the variable 'tGravityAcc-std-Y' for the subject during the activiy
+tGravityAcc-std-Z | numeric |  - | Average of the measures for the variable 'tGravityAcc-std-Z' for the subject during the activiy
+tBodyAccJerk-mean-X | numeric |  - | Average of the measures for the variable 'tBodyAccJerk-mean-X' for the subject during the activiy
+tBodyAccJerk-mean-Y | numeric |  - | Average of the measures for the variable 'tBodyAccJerk-mean-Y' for the subject during the activiy
+tBodyAccJerk-mean-Z | numeric |  - | Average of the measures for the variable 'tBodyAccJerk-mean-Z' for the subject during the activiy
+tBodyAccJerk-std-X | numeric |  - | Average of the measures for the variable 'tBodyAccJerk-std-X' for the subject during the activiy
+tBodyAccJerk-std-Y | numeric |  - | Average of the measures for the variable 'tBodyAccJerk-std-Y' for the subject during the activiy
+tBodyAccJerk-std-Z | numeric |  - | Average of the measures for the variable 'tBodyAccJerk-std-Z' for the subject during the activiy
+tBodyGyro-mean-X | numeric |  - | Average of the measures for the variable 'tBodyGyro-mean-X' for the subject during the activiy
+tBodyGyro-mean-Y | numeric |  - | Average of the measures for the variable 'tBodyGyro-mean-Y' for the subject during the activiy
+tBodyGyro-mean-Z | numeric |  - | Average of the measures for the variable 'tBodyGyro-mean-Z' for the subject during the activiy
+tBodyGyro-std-X | numeric |  - | Average of the measures for the variable 'tBodyGyro-std-X' for the subject during the activiy
+tBodyGyro-std-Y | numeric |  - | Average of the measures for the variable 'tBodyGyro-std-Y' for the subject during the activiy
+tBodyGyro-std-Z | numeric |  - | Average of the measures for the variable 'tBodyGyro-std-Z' for the subject during the activiy
+tBodyGyroJerk-mean-X | numeric |  - | Average of the measures for the variable 'tBodyGyroJerk-mean-X' for the subject during the activiy
+tBodyGyroJerk-mean-Y | numeric |  - | Average of the measures for the variable 'tBodyGyroJerk-mean-Y' for the subject during the activiy
+tBodyGyroJerk-mean-Z | numeric |  - | Average of the measures for the variable 'tBodyGyroJerk-mean-Z' for the subject during the activiy
+tBodyGyroJerk-std-X | numeric |  - | Average of the measures for the variable 'tBodyGyroJerk-std-X' for the subject during the activiy
+tBodyGyroJerk-std-Y | numeric |  - | Average of the measures for the variable 'tBodyGyroJerk-std-Y' for the subject during the activiy
+tBodyGyroJerk-std-Z | numeric |  - | Average of the measures for the variable 'tBodyGyroJerk-std-Z' for the subject during the activiy
+tBodyAccMag-mean | numeric |  - | Average of the measures for the variable 'tBodyAccMag-mean' for the subject during the activiy
+tBodyAccMag-std | numeric |  - | Average of the measures for the variable 'tBodyAccMag-std' for the subject during the activiy
+tGravityAccMag-mean | numeric |  - | Average of the measures for the variable 'tGravityAccMag-mean' for the subject during the activiy
+tGravityAccMag-std | numeric |  - | Average of the measures for the variable 'tGravityAccMag-std' for the subject during the activiy
+tBodyAccJerkMag-mean | numeric |  - | Average of the measures for the variable 'tBodyAccJerkMag-mean' for the subject during the activiy
+tBodyAccJerkMag-std | numeric |  - | Average of the measures for the variable 'tBodyAccJerkMag-std' for the subject during the activiy
+tBodyGyroMag-mean | numeric |  - | Average of the measures for the variable 'tBodyGyroMag-mean' for the subject during the activiy
+tBodyGyroMag-std | numeric |  - | Average of the measures for the variable 'tBodyGyroMag-std' for the subject during the activiy
+tBodyGyroJerkMag-mean | numeric |  - | Average of the measures for the variable 'tBodyGyroJerkMag-mean' for the subject during the activiy
+tBodyGyroJerkMag-std | numeric |  - | Average of the measures for the variable 'tBodyGyroJerkMag-std' for the subject during the activiy
+fBodyAcc-mean-X | numeric |  - | Average of the measures for the variable 'fBodyAcc-mean-X' for the subject during the activiy
+fBodyAcc-mean-Y | numeric |  - | Average of the measures for the variable 'fBodyAcc-mean-Y' for the subject during the activiy
+fBodyAcc-mean-Z | numeric |  - | Average of the measures for the variable 'fBodyAcc-mean-Z' for the subject during the activiy
+fBodyAcc-std-X | numeric |  - | Average of the measures for the variable 'fBodyAcc-std-X' for the subject during the activiy
+fBodyAcc-std-Y | numeric |  - | Average of the measures for the variable 'fBodyAcc-std-Y' for the subject during the activiy
+fBodyAcc-std-Z | numeric |  - | Average of the measures for the variable 'fBodyAcc-std-Z' for the subject during the activiy
+fBodyAccJerk-mean-X | numeric |  - | Average of the measures for the variable 'fBodyAccJerk-mean-X' for the subject during the activiy
+fBodyAccJerk-mean-Y | numeric |  - | Average of the measures for the variable 'fBodyAccJerk-mean-Y' for the subject during the activiy
+fBodyAccJerk-mean-Z | numeric |  - | Average of the measures for the variable 'fBodyAccJerk-mean-Z' for the subject during the activiy
+fBodyAccJerk-std-X | numeric |  - | Average of the measures for the variable 'fBodyAccJerk-std-X' for the subject during the activiy
+fBodyAccJerk-std-Y | numeric |  - | Average of the measures for the variable 'fBodyAccJerk-std-Y' for the subject during the activiy
+fBodyAccJerk-std-Z | numeric |  - | Average of the measures for the variable 'fBodyAccJerk-std-Z' for the subject during the activiy
+fBodyGyro-mean-X | numeric |  - | Average of the measures for the variable 'fBodyGyro-mean-X' for the subject during the activiy
+fBodyGyro-mean-Y | numeric |  - | Average of the measures for the variable 'fBodyGyro-mean-Y' for the subject during the activiy
+fBodyGyro-mean-Z | numeric |  - | Average of the measures for the variable 'fBodyGyro-mean-Z' for the subject during the activiy
+fBodyGyro-std-X | numeric |  - | Average of the measures for the variable 'fBodyGyro-std-X' for the subject during the activiy
+fBodyGyro-std-Y | numeric |  - | Average of the measures for the variable 'fBodyGyro-std-Y' for the subject during the activiy
+fBodyGyro-std-Z | numeric |  - | Average of the measures for the variable 'fBodyGyro-std-Z' for the subject during the activiy
+fBodyAccMag-mean | numeric |  - | Average of the measures for the variable 'fBodyAccMag-mean' for the subject during the activiy
+fBodyAccMag-std | numeric |  - | Average of the measures for the variable 'fBodyAccMag-std' for the subject during the activiy
+fBodyBodyAccJerkMag-mean | numeric |  - | Average of the measures for the variable 'fBodyBodyAccJerkMag-mean' for the subject during the activiy
+fBodyBodyAccJerkMag-std | numeric |  - | Average of the measures for the variable 'fBodyBodyAccJerkMag-std' for the subject during the activiy
+fBodyBodyGyroMag-mean | numeric |  - | Average of the measures for the variable 'fBodyBodyGyroMag-mean' for the subject during the activiy
+fBodyBodyGyroMag-std | numeric |  - | Average of the measures for the variable 'fBodyBodyGyroMag-std' for the subject during the activiy
+fBodyBodyGyroJerkMag-mean | numeric |  - | Average of the measures for the variable 'fBodyBodyGyroJerkMag-mean' for the subject during the activiy
+fBodyBodyGyroJerkMag-std | numeric |  - | Average of the measures for the variable 'fBodyBodyGyroJerkMag-std' for the subject during the activiy
+
+**For more detail about the measures, please see the file features_info.txt inside the zip file Dataset.zip**
