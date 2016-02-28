@@ -172,9 +172,9 @@ Save the dataset to a text file tab delimited without rownames
 
 **Tidi Data Set Description**
 
-Variable  | Type | Values | Description
-------------- | ------------- | -------------
-subject   | integer | from 1 to 30 | identifier of the subject corresponding to the measures
+Variable     | Type          | Values     | Description
+------------ | ------------- | ------------- | -------------
+subject | integer | from 1 to 30 | identifier of the subject corresponding to the measures
 activityName  | character | LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS | Activity performed when the measure was taken
 tBodyAcc-mean-X | numeric |  - | Average of the measures for the variable 'tBodyAcc-mean-X' for the subject during the activiy
 tBodyAcc-mean-Y | numeric |  - | Average of the measures for the variable 'tBodyAcc-mean-Y' for the subject during the activiy
@@ -242,5 +242,6 @@ fBodyBodyGyroMag-mean | numeric |  - | Average of the measures for the variable 
 fBodyBodyGyroMag-std | numeric |  - | Average of the measures for the variable 'fBodyBodyGyroMag-std' for the subject during the activiy
 fBodyBodyGyroJerkMag-mean | numeric |  - | Average of the measures for the variable 'fBodyBodyGyroJerkMag-mean' for the subject during the activiy
 fBodyBodyGyroJerkMag-std | numeric |  - | Average of the measures for the variable 'fBodyBodyGyroJerkMag-std' for the subject during the activiy
+
 
 **For more detail about the measures, please see the file features_info.txt inside the zip file Dataset.zip**
