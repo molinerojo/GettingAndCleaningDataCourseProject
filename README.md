@@ -23,14 +23,12 @@ You should create one R script called run_analysis.R that does the following.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # Content of the repository
-1. Core files
-  + 1.1. 'README.md'
-  + 1.2. 'run_analysis.R' : script to perform the getting, cleanning data and tidy dataset creation.
-  + 1.3. 'CodeBook.md' : code book that describes the variables, the data, and any transformations or work performed to clean up the data.
-  + 1.4. 'TidyDataSet.txt' : the tidy dataset produced with the script execution.
-2. Additional files
-  + 2.1. 'Dataset.zip' : compressed file the original dataset.
-  + 2.2. 'UCI HAR Dataset' : folder with the content of the file 'Dataset.zip'.
+
+1. 'README.md'
+2. 'run_analysis.R' : script to perform the getting, cleanning data and tidy dataset creation.
+3. 'CodeBook.md' : code book that describes the variables, the data, and any transformations or work performed to clean up the data.
+4. 'TidyDataSet.txt' : the tidy dataset produced with the script execution.
+
 
 # How to perform the getting and cleanning data, and tidy dataset creation
 
